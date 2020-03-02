@@ -22,4 +22,4 @@ This is a work-in-progress! The structure and integration into [proji](https://g
 
 ## Contribute
 
-Contributions are very welcome! Just take an example from the structure of the existing configs.
+Contributions are very welcome! Fork the repo, create a branch with a fitting name, take an example from the structure of the existing configs and create a PR when you're done.
