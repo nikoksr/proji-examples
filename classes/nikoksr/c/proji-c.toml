@@ -1,0 +1,53 @@
+name = "c-lang"
+label = "c"
+
+[[file]]
+  destination = "CMakeLists.txt"
+  template = "CMakeLists-c.txt"
+
+[[file]]
+  destination = "README.md"
+  template = "README.md"
+
+[[file]]
+  destination = "include/funcs.h"
+  template = "template.h"
+
+[[file]]
+  destination = "src/funcs.c"
+  template = "template.c"
+
+[[file]]
+  destination = "src/main.c"
+  template = "main.c"
+
+[[file]]
+  destination = ".gitignore"
+  template = "gitignore-c"
+
+[[folder]]
+  destination = ".vscode"
+  template = "vscode-c"
+
+[[folder]]
+  destination = "build/debug/bin"
+  template = ""
+
+[[folder]]
+  destination = "build/release/bin"
+  template = ""
+
+[[folder]]
+  destination = "include"
+  template = ""
+
+[[folder]]
+  destination = "src"
+  template = ""
+
+[[script]]
+  name = "init_git.sh"
+  type = "post"
+  execNumber = 1
+  runAsSudo = false
+  args = []

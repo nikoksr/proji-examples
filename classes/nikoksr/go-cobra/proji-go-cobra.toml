@@ -1,0 +1,24 @@
+name = "go-cobra"
+label = "goco"
+
+[[file]]
+  destination = "README.md"
+  template = "README.md"
+
+[[file]]
+  destination = ".gitignore"
+  template = "gitignore-go"
+
+[[script]]
+  name = "init_go_cobra.sh"
+  type = "pre"
+  execNumber = 1
+  runAsSudo = false
+  args = ["__PROJECT_NAME__"]
+
+[[script]]
+  name = "init_git.sh"
+  type = "post"
+  execNumber = 2
+  runAsSudo = false
+  args = []

@@ -1,0 +1,57 @@
+name = "c-plus-plus"
+label = "cpp"
+
+[[file]]
+  destination = "CMakeLists.txt"
+  template = "CMakeLists-cpp.txt"
+
+[[file]]
+  destination = "README.md"
+  template = "README.md"
+
+[[file]]
+  destination = ".gitignore"
+  template = "gitignore-cpp"
+
+[[file]]
+  destination = "include/funcs.hpp"
+  template = "template.hpp"
+
+[[file]]
+  destination = "src/funcs.cpp"
+  template = "template.cpp"
+
+[[file]]
+  destination = "src/main.cpp"
+  template = "main.cpp"
+
+[[folder]]
+  destination = ".vscode"
+  template = "vscode-cpp"
+
+[[folder]]
+  destination = "build/debug/bin"
+  template = ""
+
+[[folder]]
+  destination = "build/release/bin"
+  template = ""
+
+[[folder]]
+  destination = "include"
+  template = ""
+
+[[folder]]
+  destination = "src"
+  template = ""
+
+[[folder]]
+  destination = "test"
+  template = ""
+
+[[script]]
+  name = "init_git.sh"
+  type = "post"
+  execNumber = 1
+  runAsSudo = false
+  args = []

@@ -1,0 +1,28 @@
+name = "golang"
+label = "go"
+
+[[file]]
+  destination = "README.md"
+  template = "README.md"
+
+[[file]]
+  destination = ".gitignore"
+  template = "gitignore-go"
+
+[[file]]
+  destination = "main.go"
+  template = "main.go"
+
+[[script]]
+  name = "init_go.sh"
+  type = "post"
+  execNumber = 1
+  runAsSudo = false
+  args = ["__PROJECT_NAME__"]
+
+[[script]]
+  name = "init_git.sh"
+  type = "post"
+  execNumber = 2
+  runAsSudo = false
+  args = []
