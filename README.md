@@ -1,6 +1,6 @@
 <div align="center">
-<h1>proji-templates</h1>
-<h3>This repo will hold templates of classes, files and scripts for proji.</h3>
+<h1>proji-examples</h1>
+<h3>This repo will hold examples of classes, files and scripts for proji.</h3>
 </div>
 
 ## WIP
