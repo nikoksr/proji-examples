@@ -9,17 +9,17 @@ This is a work-in-progress! The structure and integration into [proji](https://g
 
 ## Structure
 
--   classes: directory for [class](https://github.com/nikoksr/proji#setting_up_a_class) configurations
--   files: template files
--   scripts: scripts that may be implemented into classes
-
-[More informations.](https://github.com/nikoksr/proji#structure-of-a-class)
+-   classes:
+    -   class-name:
+        -   **files:** template files that belong to the class
+        -   **scripts:** shell scripts that belong to the class
+        -   **proji-\*.toml:** the actual class config
 
 ## Goals
 
 -   Collect as many different project configurations as possible and make them accessible for everyone
--   Integration into proji. As mentioned in this [issue](https://github.com/nikoksr/proji/issues/63) the goal is to push and pull configurations to and from this repo
+-   Serve as a temporary collection for all kinds of proji configs until a better solution is there
 
 ## Contribute
 
-For now you can contribute configs, file templates and scripts but since the structure of this repo will most likely change, this is definitely not a stable storage location.
+Contributions are very welcome! Just take an example from the structure of the existing configs.
