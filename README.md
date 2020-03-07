@@ -10,10 +10,11 @@ This is a work-in-progress! The structure and integration into [proji](https://g
 ## Structure
 
 -   classes:
-    -   class-name:
-        -   **files:** template files that belong to the class
-        -   **scripts:** shell scripts that belong to the class
-        -   **proji-\*.toml:** the actual class config
+    -   owner:
+        -   class-name:
+            -   **files:** template files that belong to the class
+            -   **scripts:** shell scripts that belong to the class
+            -   **proji-\*.toml:** the actual class config
 
 ## Goals
 
